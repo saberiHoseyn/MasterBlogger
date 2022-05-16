@@ -1,0 +1,12 @@
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\bin\Debug\net5.0\01.MB.Domin.deps.json
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\bin\Debug\net5.0\01.MB.Domin.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\bin\Debug\net5.0\ref\01.MB.Domin.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\bin\Debug\net5.0\01.MB.Domin.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.csproj.AssemblyReference.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.AssemblyInfoInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.AssemblyInfo.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.csproj.CoreCompileInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\ref\01.MB.Domin.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\01.MB.Domin.pdb

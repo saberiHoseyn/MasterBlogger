@@ -60,13 +60,11 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Pr
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\01.MB.Domin.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\02.MB.Application.Contracts.dll
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\03.MB.Aplcation.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\04.MB-Infrastructrue.EFCore.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\MB.Infrastructure.Core.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\02.MB.Application.Contracts.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\MB.Infrastructure.Core.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\01.MB.Domin.pdb
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\03.MB.Aplcation.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\04.MB-Infrastructrue.EFCore.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\staticwebassets\05MB.Presentation.mvc.StaticWebAssets.Manifest.cache
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\staticwebassets\05MB.Presentation.mvc.StaticWebAssets.xml
@@ -74,7 +72,6 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Pr
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\05MB.Presentation.mvc.TagHelpers.input.cache
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\05MB.Presentation.mvc.TagHelpers.output.cache
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\05MB.Presentation.mvc.RazorCoreGenerate.cache
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleCategoryManagment\List.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\Error.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\Index.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\Privacy.cshtml.g.cs
@@ -96,5 +93,9 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Pr
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\ref\05MB.Presentation.mvc.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\05MB.Presentation.mvc.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\05MB.Presentation.mvc.genruntimeconfig.cache
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleCategoryManagment\Create.cshtml.g.cs
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleCategoryManagment\Edit.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\03.MB.Applcation.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\03.MB.Applcation.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleCategoryManagement\Create.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleCategoryManagement\List.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleManagement\List.cshtml.g.cs

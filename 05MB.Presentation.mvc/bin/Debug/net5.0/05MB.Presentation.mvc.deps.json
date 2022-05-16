@@ -1389,6 +1389,9 @@
         }
       },
       "01.MB.Domin/1.0.0": {
+        "dependencies": {
+          "02.MB.Application.Contracts": "1.0.0"
+        },
         "runtime": {
           "01.MB.Domin.dll": {}
         },
@@ -1404,16 +1407,16 @@
           "02.MB.Application.Contracts.dll": {}
         }
       },
-      "03.MB.Aplcation/1.0.0": {
+      "03.MB.Applcation/1.0.0": {
         "dependencies": {
           "01.MB.Domin": "1.0.0",
           "02.MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "03.MB.Aplcation.dll": {}
+          "03.MB.Applcation.dll": {}
         },
         "compile": {
-          "03.MB.Aplcation.dll": {}
+          "03.MB.Applcation.dll": {}
         }
       },
       "04.MB-Infrastructrue.EFCore/1.0.0": {
@@ -1431,7 +1434,7 @@
       "MB.Infrastructure.Core/1.0.0": {
         "dependencies": {
           "01.MB.Domin": "1.0.0",
-          "03.MB.Aplcation": "1.0.0",
+          "03.MB.Applcation": "1.0.0",
           "04.MB-Infrastructrue.EFCore": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0"
@@ -3788,7 +3791,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "03.MB.Aplcation/1.0.0": {
+    "03.MB.Applcation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

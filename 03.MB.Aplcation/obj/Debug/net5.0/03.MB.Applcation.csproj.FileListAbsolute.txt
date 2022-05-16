@@ -1,0 +1,17 @@
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\03.MB.Applcation.deps.json
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\03.MB.Applcation.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\ref\03.MB.Applcation.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\03.MB.Applcation.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\01.MB.Domin.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\02.MB.Application.Contracts.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\01.MB.Domin.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\02.MB.Application.Contracts.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.csproj.AssemblyReference.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.AssemblyInfoInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.AssemblyInfo.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.csproj.CoreCompileInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.csproj.CopyComplete
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\ref\03.MB.Applcation.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\03.MB.Applcation.pdb

@@ -1,5 +1,5 @@
-﻿@*@page
-@model IndexModel
+﻿@page
+@model _05MB.Presentation.mvc.Pages.IndexModel
 @{
     ViewData["Title"] = "Index";
 }
@@ -13,7 +13,7 @@
                 <div class="post col-xl-6">
                     <div class="post-thumbnail">
                         <a asp-page="/ArticleDetails" asp-route-id="@article.Id">
-                            <img src="@article.Image" alt="@article.Title" title="@article.Title" class="img-fluid">
+                            <img src="@article.Img" alt="@article.Title" title="@article.Title" class="img-fluid">
                         </a>
                     </div>
                     <div class="post-details">
@@ -30,7 +30,7 @@
                             @article.ShortDescription
                         </p>
                         <footer class="post-footer d-flex align-items-center">
-                            <div class="comments meta-last"><i class="icon-comment"></i>@article.CommentsCount</div>
+                            <div class="comments meta-last"><i class="icon-comment"></i>12</div>
                         </footer>
                     </div>
                 </div>
@@ -38,4 +38,4 @@
 
         </div>
     </div>
-</main>*@
+</main>

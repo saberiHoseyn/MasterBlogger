@@ -11,6 +11,7 @@
           "01.MB.Domin": "1.0.0",
           "03.MB.Applcation": "1.0.0",
           "04.MB-Infrastructrue.EFCore": "1.0.0",
+          "06.MB.Infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
@@ -1086,6 +1087,14 @@
         "runtime": {
           "04.MB-Infrastructrue.EFCore.dll": {}
         }
+      },
+      "06.MB.Infrastructure.Query/1.0.0": {
+        "dependencies": {
+          "04.MB-Infrastructrue.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "06.MB.Infrastructure.Query.dll": {}
+        }
       }
     }
   },
@@ -1776,6 +1785,11 @@
       "sha512": ""
     },
     "04.MB-Infrastructrue.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "06.MB.Infrastructure.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

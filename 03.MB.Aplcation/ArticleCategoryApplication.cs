@@ -11,14 +11,10 @@ namespace _03.MB.Aplcation
         private readonly IArticleCategoryRepository articleCategoryRepository;
         private readonly IArticleCategoryValidatorService articleCategoryValidatorService;
 
-        public ArticleCategoryApplication(IArticleCategoryValidatorService articleCategoryValidatorService)
-        {
-            this.articleCategoryValidatorService = articleCategoryValidatorService;
-        }
-
-        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository)
+        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository, IArticleCategoryValidatorService articleCategoryValidatorService)
         {
             this.articleCategoryRepository = articleCategoryRepository;
+            this.articleCategoryValidatorService = articleCategoryValidatorService;
         }
 
         public List<ArticleCategoryViewModel> List()

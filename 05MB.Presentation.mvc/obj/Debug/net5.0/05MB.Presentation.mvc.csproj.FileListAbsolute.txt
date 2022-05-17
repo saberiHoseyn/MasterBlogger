@@ -101,3 +101,5 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Pr
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleManagement\List.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleManagement\Create.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\obj\Debug\net5.0\Razor\Areas\Adminstrator\Pages\ArticleManagement\Edit.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\06.MB.Infrastructure.Query.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\05MB.Presentation.mvc\bin\Debug\net5.0\06.MB.Infrastructure.Query.pdb

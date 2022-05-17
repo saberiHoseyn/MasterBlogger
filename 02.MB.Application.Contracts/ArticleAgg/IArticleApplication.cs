@@ -12,5 +12,7 @@ namespace _02.MB.Application.Contracts.ArticleAgg
         void Create(CreateArticle command);
         EditArticle Get(long id);
         void Edit(EditArticle command);
+        void Remove(long id);
+        void Activate(long id);
     }
 }

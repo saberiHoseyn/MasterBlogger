@@ -42,5 +42,15 @@ namespace _01.MB.Domin.ArticleAgg
             Img = img;
             ArticleCategoryId = articleCategoryId;
         }
+
+        public void Remove()
+        {
+            IsDeleted = true;
+        }
+
+        public void Activate()
+        {
+            IsDeleted = false;
+        }
     }
 }

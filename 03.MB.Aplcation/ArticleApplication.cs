@@ -48,5 +48,19 @@ namespace _03.MB.Aplcation
             article.Edit(command.Title, command.ShortDescription, command.Content, command.Img, command.ArticleCategoryId);
             articleRepository.Save();
         }
+
+        public void Remove(long id)
+        {
+            var article = articleRepository.Get(id);
+            article.Remove();
+            articleRepository.Save();
+        }
+
+        public void Activate(long id)
+        {
+            var article = articleRepository.Get(id);
+            article.Activate();
+            articleRepository.Save();
+        }
     }
 }

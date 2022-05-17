@@ -10,6 +10,7 @@ namespace _02.MB.Application.Contracts.ArticleAgg
     {
         List<ArticleViewModel> GetList();
         void Create(CreateArticle command);
-
+        EditArticle Get(long id);
+        void Edit(EditArticle command);
     }
 }

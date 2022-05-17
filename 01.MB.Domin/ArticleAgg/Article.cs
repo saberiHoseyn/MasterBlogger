@@ -33,5 +33,14 @@ namespace _01.MB.Domin.ArticleAgg
             IsDeleted = false;
             CreationDate = DateTime.Now;
         }
+
+        public void Edit(string title, string shortDescription, string content, string img, long articleCategoryId)
+        {
+            Title = title;
+            ShortDescription = shortDescription;
+            Content = content;
+            Img = img;
+            ArticleCategoryId = articleCategoryId;
+        }
     }
 }

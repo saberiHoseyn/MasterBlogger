@@ -11,6 +11,7 @@ namespace _01.MB.Domin.ArticleAgg
     {
         List<ArticleViewModel> GetList();
         void CreateAndSave(Article entity);
+        Article Get(long id);
         void Save();
     }
 }

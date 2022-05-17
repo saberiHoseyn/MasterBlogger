@@ -30,5 +30,16 @@ namespace _04.MB_Infrastructrue.EFCore.Repositories
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
             }).OrderByDescending(x => x.Id).ToList();
         }
+
+        public void CreateAndSave(Article entity)
+        {
+            context.Articles.Add(entity);
+            Save();
+        }
+
+        public void Save()
+        {
+            context.SaveChanges();
+        }
     }
 }

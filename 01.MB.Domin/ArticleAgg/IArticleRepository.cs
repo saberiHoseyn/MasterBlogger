@@ -10,5 +10,7 @@ namespace _01.MB.Domin.ArticleAgg
     public interface IArticleRepository
     {
         List<ArticleViewModel> GetList();
+        void CreateAndSave(Article entity);
+        void Save();
     }
 }

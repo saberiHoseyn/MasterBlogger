@@ -21,5 +21,11 @@ namespace _03.MB.Aplcation
         {
             return articleRepository.GetList();
         }
+
+        public void Create(CreateArticle command)
+        {
+            var article = new Article(command.Title, command.ShortDescription, command.Content, command.Img, command.ArticleCategoryId);
+            articleRepository.CreateAndSave(article);
+        }
     }
 }

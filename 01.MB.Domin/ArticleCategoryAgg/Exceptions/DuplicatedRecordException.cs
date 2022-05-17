@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.MB.Domin.ArticleCategoryAgg.Exceptions
 {
-    class DuplicatedRecordException : Exception
+    public class DuplicatedRecordException : Exception
     {
         public DuplicatedRecordException()
         {

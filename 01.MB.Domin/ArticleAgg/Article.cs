@@ -9,6 +9,7 @@ namespace _01.MB.Domin.ArticleAgg
 {
     public class Article
     {
+        #region properties
         public long Id { get; private set; }
         public string Title { get; private set; }
         public string ShortDescription { get; private set; }
@@ -19,12 +20,17 @@ namespace _01.MB.Domin.ArticleAgg
         public long ArticleCategoryId { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
 
+        #endregion
+
+        #region constroctors
         protected Article()
         {
         }
 
         public Article(string title, string shortDescription, string content, string img, long articleCategoryId)
         {
+            Validate(title, articleCategoryId);
+
             Title = title;
             ShortDescription = shortDescription;
             Content = content;
@@ -33,9 +39,13 @@ namespace _01.MB.Domin.ArticleAgg
             IsDeleted = false;
             CreationDate = DateTime.Now;
         }
+        #endregion
+
 
         public void Edit(string title, string shortDescription, string content, string img, long articleCategoryId)
         {
+            Validate(title, articleCategoryId);
+
             Title = title;
             ShortDescription = shortDescription;
             Content = content;
@@ -51,6 +61,15 @@ namespace _01.MB.Domin.ArticleAgg
         public void Activate()
         {
             IsDeleted = false;
+        }
+
+        private static void Validate(string title, long articleCategoryId)
+        {
+            if (string.IsNullOrEmpty(title))
+                throw new ArgumentNullException();
+
+            if (articleCategoryId == 0)
+                throw new ArgumentOutOfRangeException();
         }
     }
 }

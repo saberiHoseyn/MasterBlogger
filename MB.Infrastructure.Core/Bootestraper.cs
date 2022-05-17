@@ -1,4 +1,5 @@
 ﻿using _01.MB.Domin.ArticleAgg;
+using _01.MB.Domin.ArticleAgg.Services;
 using _01.MB.Domin.ArticleCategoryAgg;
 using _02.MB.Application.Contracts.ArticleAgg;
 using _02.MB.Application.Contracts.ArticleCategoryAgg;
@@ -19,9 +20,12 @@ namespace MB.Infrastructure.Core
         {
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
-            
+            services.AddTransient<IArticleValidatorService, ArticleValidatorService>();
+
+
             services.AddTransient<IArticleRepository, ArticleRepository>();
             services.AddTransient<IArticleApplication, ArticleApplication>();
+            services.AddTransient<IArticleValidatorService, ArticleValidatorService>();
 
             services.AddDbContext<MasterBloggerContext>(option =>
               option.UseSqlServer(ConnectionString));

@@ -1,9 +1,7 @@
 ﻿using _01.MB.Domin.ArticleCategoryAgg;
+using _01.MB.Domin.CommenntAgg;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01.MB.Domin.ArticleAgg
 {
@@ -19,6 +17,7 @@ namespace _01.MB.Domin.ArticleAgg
         public string Img { get; private set; }
         public long ArticleCategoryId { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
+        public ICollection<Comment> Comments { get; private set; }
 
         #endregion
 
@@ -38,6 +37,7 @@ namespace _01.MB.Domin.ArticleAgg
             ArticleCategoryId = articleCategoryId;
             IsDeleted = false;
             CreationDate = DateTime.Now;
+            Comments = new List<Comment>();
         }
         #endregion
 

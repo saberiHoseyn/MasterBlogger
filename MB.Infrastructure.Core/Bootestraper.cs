@@ -2,8 +2,10 @@
 using _01.MB.Domin.ArticleAgg.Services;
 using _01.MB.Domin.ArticleCategoryAgg;
 using _01.MB.Domin.ArticleCategoryAgg.Servives;
+using _01.MB.Domin.CommentAgg;
 using _02.MB.Application.Contracts.ArticleAgg;
 using _02.MB.Application.Contracts.ArticleCategoryAgg;
+using _02.MB.Application.Contracts.CommentAgg;
 using _03.MB.Aplcation;
 using _04.MB_Infrastructrue.EFCore;
 using _04.MB_Infrastructrue.EFCore.Repositories;
@@ -24,6 +26,9 @@ namespace MB.Infrastructure.Core
             services.AddTransient<IArticleRepository, ArticleRepository>();
             services.AddTransient<IArticleApplication, ArticleApplication>();
             services.AddTransient<IArticleValidatorService, ArticleValidatorService>();
+
+            services.AddTransient<ICommentApplication, CommentApplication>();
+            services.AddTransient<ICommentRepository, CommentRepository>();
 
             services.AddTransient<IArticleQuery, ArticleQuery>();
 

@@ -1,7 +1,6 @@
 ﻿using _01.MB.Domin.ArticleAgg;
 using _01.MB.Domin.ArticleCategoryAgg.Servives;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace _01.MB.Domin.ArticleCategoryAgg

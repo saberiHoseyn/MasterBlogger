@@ -1,12 +1,12 @@
-﻿using System;
+﻿using _02.MB.Application.Contracts.CommentAgg;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01.MB.Domin.CommentAgg
 {
     public interface ICommentRepository
     {
+        void CreateAndSave(Comment entity);
+        List<CommentViewModel> GetList();
+        void Save();
     }
 }

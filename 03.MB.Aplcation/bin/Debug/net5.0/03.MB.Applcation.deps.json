@@ -8,24 +8,24 @@
     ".NETCoreApp,Version=v5.0": {
       "03.MB.Applcation/1.0.0": {
         "dependencies": {
-          "01.MB.Domin": "1.0.0",
-          "02.MB.Application.Contracts": "1.0.0"
+          "_01.MB.Domin": "1.0.0",
+          "_02.MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "03.MB.Applcation.dll": {}
         }
       },
-      "01.MB.Domin/1.0.0": {
+      "_01.MB.Domin/1.0.0": {
         "dependencies": {
-          "02.MB.Application.Contracts": "1.0.0"
+          "_02.MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "01.MB.Domin.dll": {}
+          "_01.MB.Domin.dll": {}
         }
       },
-      "02.MB.Application.Contracts/1.0.0": {
+      "_02.MB.Application.Contracts/1.0.0": {
         "runtime": {
-          "02.MB.Application.Contracts.dll": {}
+          "_02.MB.Application.Contracts.dll": {}
         }
       }
     }
@@ -36,12 +36,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "01.MB.Domin/1.0.0": {
+    "_01.MB.Domin/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "02.MB.Application.Contracts/1.0.0": {
+    "_02.MB.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

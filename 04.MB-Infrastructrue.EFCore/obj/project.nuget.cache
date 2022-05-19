@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3vwna079241GOZNoHzsRA7arq+YTQ35qUYJKsq4pCeMkpTYByryO25wEcWu7nHdygxwCJjotBg+PLUgu1Uy8g==",
+  "dgSpecHash": "g1Pai0+lKGbmCQThFNDK0hf9t8BS8mWIZ3uM5g7msnyE3oHxU6R1vz082++dEM2FseBm4OYBZPMFEKIJin4VCw==",
   "success": true,
-  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\04.MB-Infrastructrue.EFCore.csproj",
+  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\_04.MB-Infrastructrue.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samsung\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

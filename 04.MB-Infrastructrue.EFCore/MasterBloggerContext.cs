@@ -1,6 +1,6 @@
 ﻿using _01.MB.Domin.ArticleAgg;
 using _01.MB.Domin.ArticleCategoryAgg;
-using _01.MB.Domin.CommenntAgg;
+using _01.MB.Domin.CommentAgg;
 using _04.MB_Infrastructrue.EFCore.Mappings;
 using Microsoft.EntityFrameworkCore;
 

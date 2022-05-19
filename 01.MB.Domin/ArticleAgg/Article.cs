@@ -1,5 +1,5 @@
 ﻿using _01.MB.Domin.ArticleCategoryAgg;
-using _01.MB.Domin.CommenntAgg;
+using _01.MB.Domin.CommentAgg;
 using System;
 using System.Collections.Generic;
 

@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v5.0": {
       "MB.Infrastructure.Core/1.0.0": {
         "dependencies": {
-          "01.MB.Domin": "1.0.0",
-          "03.MB.Applcation": "1.0.0",
-          "04.MB-Infrastructrue.EFCore": "1.0.0",
-          "06.MB.Infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "System.Configuration.ConfigurationManager": "6.0.0"
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "_01.MB.Domin": "1.0.0",
+          "_03.MB.Applcation": "1.0.0",
+          "_04.MB-Infrastructrue.EFCore": "1.0.0",
+          "_06.MB.Infrastructure.Query": "1.0.0"
         },
         "runtime": {
           "MB.Infrastructure.Core.dll": {}
@@ -1057,43 +1057,43 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "01.MB.Domin/1.0.0": {
+      "_01.MB.Domin/1.0.0": {
         "dependencies": {
-          "02.MB.Application.Contracts": "1.0.0"
+          "_02.MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "01.MB.Domin.dll": {}
+          "_01.MB.Domin.dll": {}
         }
       },
-      "02.MB.Application.Contracts/1.0.0": {
+      "_02.MB.Application.Contracts/1.0.0": {
         "runtime": {
-          "02.MB.Application.Contracts.dll": {}
+          "_02.MB.Application.Contracts.dll": {}
         }
       },
-      "03.MB.Applcation/1.0.0": {
+      "_03.MB.Applcation/1.0.0": {
         "dependencies": {
-          "01.MB.Domin": "1.0.0",
-          "02.MB.Application.Contracts": "1.0.0"
+          "_01.MB.Domin": "1.0.0",
+          "_02.MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "03.MB.Applcation.dll": {}
+          "_03.MB.Applcation.dll": {}
         }
       },
-      "04.MB-Infrastructrue.EFCore/1.0.0": {
+      "_04.MB-Infrastructrue.EFCore/1.0.0": {
         "dependencies": {
-          "01.MB.Domin": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "_01.MB.Domin": "1.0.0"
         },
         "runtime": {
-          "04.MB-Infrastructrue.EFCore.dll": {}
+          "_04.MB-Infrastructrue.EFCore.dll": {}
         }
       },
-      "06.MB.Infrastructure.Query/1.0.0": {
+      "_06.MB.Infrastructure.Query/1.0.0": {
         "dependencies": {
-          "04.MB-Infrastructrue.EFCore": "1.0.0"
+          "_04.MB-Infrastructrue.EFCore": "1.0.0"
         },
         "runtime": {
-          "06.MB.Infrastructure.Query.dll": {}
+          "_06.MB.Infrastructure.Query.dll": {}
         }
       }
     }
@@ -1769,27 +1769,27 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "01.MB.Domin/1.0.0": {
+    "_01.MB.Domin/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "02.MB.Application.Contracts/1.0.0": {
+    "_02.MB.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "03.MB.Applcation/1.0.0": {
+    "_03.MB.Applcation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "04.MB-Infrastructrue.EFCore/1.0.0": {
+    "_04.MB-Infrastructrue.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "06.MB.Infrastructure.Query/1.0.0": {
+    "_06.MB.Infrastructure.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

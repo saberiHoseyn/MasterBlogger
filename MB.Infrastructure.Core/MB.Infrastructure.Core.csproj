@@ -10,10 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\01.MB.Domin\01.MB.Domin.csproj" />
-    <ProjectReference Include="..\03.MB.Aplcation\03.MB.Applcation.csproj" />
-    <ProjectReference Include="..\04.MB-Infrastructrue.EFCore\04.MB-Infrastructrue.EFCore.csproj" />
-    <ProjectReference Include="..\06.MB.Infrastructure.Query\06.MB.Infrastructure.Query.csproj" />
+    <ProjectReference Include="..\01.MB.Domin\_01.MB.Domin.csproj" />
+    <ProjectReference Include="..\03.MB.Aplcation\_03.MB.Applcation.csproj" />
+    <ProjectReference Include="..\04.MB-Infrastructrue.EFCore\_04.MB-Infrastructrue.EFCore.csproj" />
+    <ProjectReference Include="..\06.MB.Infrastructure.Query\_06.MB.Infrastructure.Query.csproj" />
   </ItemGroup>
 
 </Project>

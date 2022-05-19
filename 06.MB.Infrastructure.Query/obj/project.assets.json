@@ -1482,41 +1482,41 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "01.MB.Domin/1.0.0": {
+      "_01.MB.Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "02.MB.Application.Contracts": "1.0.0"
+          "_02.MB.Application.Contracts": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/01.MB.Domin.dll": {}
+          "bin/placeholder/_01.MB.Domin.dll": {}
         },
         "runtime": {
-          "bin/placeholder/01.MB.Domin.dll": {}
+          "bin/placeholder/_01.MB.Domin.dll": {}
         }
       },
-      "02.MB.Application.Contracts/1.0.0": {
+      "_02.MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/02.MB.Application.Contracts.dll": {}
+          "bin/placeholder/_02.MB.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/02.MB.Application.Contracts.dll": {}
+          "bin/placeholder/_02.MB.Application.Contracts.dll": {}
         }
       },
-      "04.MB-Infrastructrue.EFCore/1.0.0": {
+      "_04.MB-Infrastructrue.EFCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "01.MB.Domin": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "_01.MB.Domin": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/04.MB-Infrastructrue.EFCore.dll": {}
+          "bin/placeholder/_04.MB-Infrastructrue.EFCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/04.MB-Infrastructrue.EFCore.dll": {}
+          "bin/placeholder/_04.MB-Infrastructrue.EFCore.dll": {}
         }
       }
     }
@@ -5731,25 +5731,25 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "01.MB.Domin/1.0.0": {
+    "_01.MB.Domin/1.0.0": {
       "type": "project",
-      "path": "../01.MB.Domin/01.MB.Domin.csproj",
-      "msbuildProject": "../01.MB.Domin/01.MB.Domin.csproj"
+      "path": "../01.MB.Domin/_01.MB.Domin.csproj",
+      "msbuildProject": "../01.MB.Domin/_01.MB.Domin.csproj"
     },
-    "02.MB.Application.Contracts/1.0.0": {
+    "_02.MB.Application.Contracts/1.0.0": {
       "type": "project",
-      "path": "../02.MB.Application.Contracts/02.MB.Application.Contracts.csproj",
-      "msbuildProject": "../02.MB.Application.Contracts/02.MB.Application.Contracts.csproj"
+      "path": "../02.MB.Application.Contracts/_02.MB.Application.Contracts.csproj",
+      "msbuildProject": "../02.MB.Application.Contracts/_02.MB.Application.Contracts.csproj"
     },
-    "04.MB-Infrastructrue.EFCore/1.0.0": {
+    "_04.MB-Infrastructrue.EFCore/1.0.0": {
       "type": "project",
-      "path": "../04.MB-Infrastructrue.EFCore/04.MB-Infrastructrue.EFCore.csproj",
-      "msbuildProject": "../04.MB-Infrastructrue.EFCore/04.MB-Infrastructrue.EFCore.csproj"
+      "path": "../04.MB-Infrastructrue.EFCore/_04.MB-Infrastructrue.EFCore.csproj",
+      "msbuildProject": "../04.MB-Infrastructrue.EFCore/_04.MB-Infrastructrue.EFCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "04.MB-Infrastructrue.EFCore >= 1.0.0"
+      "_04.MB-Infrastructrue.EFCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5758,9 +5758,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\06.MB.Infrastructure.Query.csproj",
-      "projectName": "06.MB.Infrastructure.Query",
-      "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\06.MB.Infrastructure.Query.csproj",
+      "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\_06.MB.Infrastructure.Query.csproj",
+      "projectName": "_06.MB.Infrastructure.Query",
+      "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\_06.MB.Infrastructure.Query.csproj",
       "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
       "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\obj\\",
       "projectStyle": "PackageReference",
@@ -5779,8 +5779,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\04.MB-Infrastructrue.EFCore.csproj": {
-              "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\04.MB-Infrastructrue.EFCore.csproj"
+            "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\_04.MB-Infrastructrue.EFCore.csproj": {
+              "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\_04.MB-Infrastructrue.EFCore.csproj"
             }
           }
         }

@@ -1,4 +1,4 @@
-﻿using _01.MB.Domin.CommenntAgg;
+﻿using _01.MB.Domin.CommentAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

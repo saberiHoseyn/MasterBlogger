@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cfJZ93Go0/HqjjWvt52VJVXT95t3iQ2m+JWani9jND5kZb0XYibVpDm9fEqdqrKXaKRziEpdIXLErwj5/a6OEQ==",
+  "dgSpecHash": "zKcRPXOFTGcb7ORzzvy3ZM7cix27yg++OxaaTYanakZdEhhGmR0tCZjv0YZdKSmc1fkG+pQlPyV+sihm1xbJVQ==",
   "success": true,
-  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\06.MB.Infrastructure.Query.csproj",
+  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\_06.MB.Infrastructure.Query.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

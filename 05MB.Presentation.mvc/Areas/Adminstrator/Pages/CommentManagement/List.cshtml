@@ -46,7 +46,19 @@
                             }
                         </td>
                         <td>@comment.CreationDate</td>
-                        <td>...</td>
+                        <td>
+                            @if (comment.Status == Statuses.New)
+                            {
+                                <form asp-page-handler="Confirm" class="float-left mr-1">
+                                    <button class="btn btn-success">Confirm</button>
+                                    <input type="hidden" name="id" value="@comment.Id" />
+                                </form>
+                                <form asp-page-handler="Cancel" class="float-left">
+                                    <button class="btn btn-danger">Cancel</button>
+                                    <input type="hidden" name="id" value="Commet.Id" />
+                                </form>
+                            }
+                        </td>
                     </tr>
                 }
             </tbody>

@@ -23,6 +23,11 @@ namespace _04.MB_Infrastructrue.EFCore.Repositories
             Save();
         }
 
+        public Comment Get(long id)
+        {
+            return context.Comments.FirstOrDefault(x => x.Id == id);
+        }
+
         public List<CommentViewModel> GetList()
         {
             return context.Comments.Include(x => x.Article).Select(x => new CommentViewModel

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace _02.MB.Application.Contracts.CommentAgg
 {
@@ -10,5 +6,7 @@ namespace _02.MB.Application.Contracts.CommentAgg
     {
         void Add(AddComment comment);
         List<CommentViewModel> GetList();
+        void Confirm( long id);
+        void Cancel( long id);
     }
 }

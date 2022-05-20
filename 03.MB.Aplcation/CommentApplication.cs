@@ -20,6 +20,21 @@ namespace _03.MB.Aplcation
             commentRepository.CreateAndSave(entity);
         }
 
+        public void Cancel(long id)
+        {
+            var comment = commentRepository.Get(id);
+            comment.Cancel();
+            commentRepository.Save();
+
+        }
+
+        public void Confirm(long id)
+        {
+            var comment = commentRepository.Get(id);
+            comment.Confirm();
+            commentRepository.Save();
+        }
+
         public List<CommentViewModel> GetList()
         {
             return commentRepository.GetList();

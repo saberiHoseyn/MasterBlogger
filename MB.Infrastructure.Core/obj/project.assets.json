@@ -1510,10 +1510,24 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "_00.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/_00.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_00.Framework.dll": {}
+        }
+      },
       "_01.MB.Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "_00.Framework": "1.0.0",
           "_02.MB.Application.Contracts": "1.0.0"
         },
         "compile": {
@@ -5793,6 +5807,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "_00.Framework/1.0.0": {
+      "type": "project",
+      "path": "../_00.Framework/_00.Framework.csproj",
+      "msbuildProject": "../_00.Framework/_00.Framework.csproj"
     },
     "_01.MB.Domin/1.0.0": {
       "type": "project",

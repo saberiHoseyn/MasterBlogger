@@ -1,4 +1,5 @@
-﻿using _01.MB.Domin.ArticleAgg;
+﻿using _00.Framework.Infrastructure;
+using _01.MB.Domin.ArticleAgg;
 using _02.MB.Application.Contracts.ArticleAgg;
 using System.Collections.Generic;
 
@@ -6,11 +7,13 @@ namespace _03.MB.Aplcation
 {
     public class ArticleApplication : IArticleApplication
     {
+        private readonly IUnitOfWork unitOfWork;
         private readonly IArticleRepository articleRepository;
 
-        public ArticleApplication(IArticleRepository articleRepository)
+        public ArticleApplication(IArticleRepository articleRepository, IUnitOfWork unitOfWork)
         {
             this.articleRepository = articleRepository;
+            this.unitOfWork = unitOfWork;
         }
 
         public List<ArticleViewModel> GetList()
@@ -20,8 +23,10 @@ namespace _03.MB.Aplcation
 
         public void Create(CreateArticle command)
         {
+            unitOfWork.BeginTran();
             var article = new Article(command.Title, command.ShortDescription, command.Content, command.Img, command.ArticleCategoryId);
-            articleRepository.CreateAndSave(article);
+            articleRepository.Creat(article);
+            unitOfWork.CommitTran();
         }
 
         public EditArticle Get(long id)
@@ -40,23 +45,26 @@ namespace _03.MB.Aplcation
 
         public void Edit(EditArticle command)
         {
+            unitOfWork.BeginTran();
             var article = articleRepository.Get(command.Id);
             article.Edit(command.Title, command.ShortDescription, command.Content, command.Img, command.ArticleCategoryId);
-            articleRepository.Save();
+            unitOfWork.CommitTran();
         }
 
         public void Remove(long id)
         {
+            unitOfWork.BeginTran();
             var article = articleRepository.Get(id);
             article.Remove();
-            articleRepository.Save();
+            unitOfWork.CommitTran();
         }
 
         public void Activate(long id)
         {
+            unitOfWork.BeginTran();
             var article = articleRepository.Get(id);
             article.Activate();
-            articleRepository.Save();
+            unitOfWork.CommitTran();
         }
     }
 }

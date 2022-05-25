@@ -7,6 +7,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\02.MB.Application.Contracts\_02.MB.Application.Contracts.csproj" />
+	  <ProjectReference Include="..\_00.Framework\_00.Framework.csproj" />
 	</ItemGroup>
 
 </Project>

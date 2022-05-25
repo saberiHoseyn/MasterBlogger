@@ -18,3 +18,5 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\04.MB-I
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\04.MB-Infrastructrue.EFCore\obj\Debug\net5.0\ref\_04.MB-Infrastructrue.EFCore.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\04.MB-Infrastructrue.EFCore\obj\Debug\net5.0\_04.MB-Infrastructrue.EFCore.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\04.MB-Infrastructrue.EFCore\obj\Debug\net5.0\_04.MB-Infrastructrue.EFCore.genruntimeconfig.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\04.MB-Infrastructrue.EFCore\bin\Debug\net5.0\_00.Framework.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\04.MB-Infrastructrue.EFCore\bin\Debug\net5.0\_00.Framework.pdb

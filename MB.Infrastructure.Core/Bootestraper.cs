@@ -1,4 +1,6 @@
-﻿using _01.MB.Domin.ArticleAgg;
+﻿using _00.Framework.Domin;
+using _00.Framework.Infrastructure;
+using _01.MB.Domin.ArticleAgg;
 using _01.MB.Domin.ArticleAgg.Services;
 using _01.MB.Domin.ArticleCategoryAgg;
 using _01.MB.Domin.ArticleCategoryAgg.Servives;
@@ -19,6 +21,8 @@ namespace MB.Infrastructure.Core
     {
         public static void Config(IServiceCollection services, string ConnectionString)
         {
+            services.AddTransient<IBaseRepository<long, DominBase<long>>, BaseRepository<long, DominBase<long>>>();
+
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
             services.AddTransient<IArticleCategoryValidatorService, ArticleCategoryValidatorService>();
@@ -31,6 +35,7 @@ namespace MB.Infrastructure.Core
             services.AddTransient<ICommentRepository, CommentRepository>();
 
             services.AddTransient<IArticleQuery, ArticleQuery>();
+            services.AddTransient<IUnitOfWork, UnitOfWorkEF>();
 
             services.AddDbContext<MasterBloggerContext>(option =>
               option.UseSqlServer(ConnectionString));

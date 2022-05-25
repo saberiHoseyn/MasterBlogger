@@ -1,20 +1,18 @@
-﻿using _01.MB.Domin.ArticleAgg;
+﻿using _00.Framework.Infrastructure;
+using _01.MB.Domin.ArticleAgg;
 using _02.MB.Application.Contracts.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.MB_Infrastructrue.EFCore.Repositories
 {
-    public class ArticleRepository : IArticleRepository
+    public class ArticleRepository : BaseRepository<long, Article>, IArticleRepository
     {
         private readonly MasterBloggerContext context;
 
-        public ArticleRepository(MasterBloggerContext context)
+        public ArticleRepository(MasterBloggerContext context) : base(context)
         {
             this.context = context;
         }
@@ -29,27 +27,6 @@ namespace _04.MB_Infrastructrue.EFCore.Repositories
                 IsDeleted = x.IsDeleted,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
             }).OrderByDescending(x => x.Id).ToList();
-        }
-
-        public void CreateAndSave(Article entity)
-        {
-            context.Articles.Add(entity);
-            Save();
-        }
-
-        public void Save()
-        {
-            context.SaveChanges();
-        }
-
-        public Article Get(long id)
-        {
-            return context.Articles.FirstOrDefault(x => x.Id == id);
-        }
-
-        public bool Exists(string title)
-        {
-            return context.Articles.Any(x => x.Title == title);
         }
     }
 }

@@ -1,18 +1,20 @@
-﻿using _01.MB.Domin.ArticleAgg;
+﻿using _00.Framework.Domin;
+using _01.MB.Domin.ArticleAgg;
 using _01.MB.Domin.ArticleCategoryAgg.Servives;
 using System;
 using System.Collections.Generic;
 
 namespace _01.MB.Domin.ArticleCategoryAgg
 {
-    public class ArticleCategory
+    public class ArticleCategory : DominBase<long>
     {
-        public long Id { get; private set; }
         public string Title { get; private set; }
         public bool IsDeleted { get; private set; }
-        public DateTime CreationDate { get; private set; }
         public ICollection<Article> Articles { get; private set; }
 
+        protected ArticleCategory()
+        {
+        }
 
         public ArticleCategory(string title, IArticleCategoryValidatorService validatorService)
         {
@@ -20,13 +22,10 @@ namespace _01.MB.Domin.ArticleCategoryAgg
             validatorService.CheckThatThisRecordAlreadyExists(title);
             Title = title;
             IsDeleted = false;
-            CreationDate = DateTime.Now;
             Articles = new List<Article>();
         }
 
-        public ArticleCategory()
-        {
-        }
+        
 
         public void Rename(string title)
         {

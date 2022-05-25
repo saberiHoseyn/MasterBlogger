@@ -13,3 +13,5 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.D
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\_01.MB.Domin.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\ref\_01.MB.Domin.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\obj\Debug\net5.0\_01.MB.Domin.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\bin\Debug\net5.0\_00.Framework.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\01.MB.Domin\bin\Debug\net5.0\_00.Framework.pdb

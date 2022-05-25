@@ -1,16 +1,14 @@
-﻿using _01.MB.Domin.ArticleAgg;
-using System;
+﻿using _00.Framework.Domin;
+using _01.MB.Domin.ArticleAgg;
 
 namespace _01.MB.Domin.CommentAgg
 {
-    public class Comment
+    public class Comment : DominBase<long>
     {
         #region Properties
-        public long Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string Message { get; private set; }
-        public DateTime CreationDate { get; private set; }
         public int Status { get; private set; }
         public Article Article { get; set; }
         public long ArticleId { get; set; }
@@ -27,7 +25,6 @@ namespace _01.MB.Domin.CommentAgg
             Message = message;
             ArticleId = articleId;
             Status = Statuses.New;
-            CreationDate = DateTime.Now;
         }
 
         public void Confirm()

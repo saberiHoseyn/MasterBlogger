@@ -1,19 +1,18 @@
-﻿using _01.MB.Domin.ArticleCategoryAgg;
+﻿using _00.Framework.Domin;
+using _01.MB.Domin.ArticleCategoryAgg;
 using _01.MB.Domin.CommentAgg;
 using System;
 using System.Collections.Generic;
 
 namespace _01.MB.Domin.ArticleAgg
 {
-    public class Article
+    public class Article : DominBase<long>
     {
         #region properties
-        public long Id { get; private set; }
         public string Title { get; private set; }
         public string ShortDescription { get; private set; }
         public string Content { get; private set; }
         public bool IsDeleted { get; private set; }
-        public DateTime CreationDate { get; private set; }
         public string Img { get; private set; }
         public long ArticleCategoryId { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
@@ -36,7 +35,6 @@ namespace _01.MB.Domin.ArticleAgg
             Img = img;
             ArticleCategoryId = articleCategoryId;
             IsDeleted = false;
-            CreationDate = DateTime.Now;
             Comments = new List<Comment>();
         }
         #endregion

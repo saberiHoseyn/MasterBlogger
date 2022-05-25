@@ -45,9 +45,10 @@ namespace _03.MB.Aplcation
 
         public void Rename(RenameArticleCategory command)
         {
+            unitOfWork.BeginTran();
             var articleCategory = articleCategoryRepository.Get(command.Id);
             articleCategory.Rename(command.Title);
-            //articleCategoryRepository.SaveChanges();
+            unitOfWork.CommitTran();
         }
 
         public RenameArticleCategory Get(long id)
@@ -62,16 +63,18 @@ namespace _03.MB.Aplcation
 
         public void Remove(long id)
         {
+            unitOfWork.BeginTran();
             var articleCategory = articleCategoryRepository.Get(id);
             articleCategory.Remove();
-            //articleCategoryRepository.SaveChanges();
+            unitOfWork.CommitTran();
         }
 
         public void Activate(long id)
         {
+            unitOfWork.BeginTran();
             var articleCategory = articleCategoryRepository.Get(id);
             articleCategory.Activate();
-            //articleCategoryRepository.SaveChanges();
+            unitOfWork.CommitTran();
         }
     }
 }

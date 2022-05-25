@@ -43,17 +43,61 @@
                             <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@article.Id">Edit</a>
                             @if (article.IsDeleted)
                             {
-                                <form asp-page-handler="Activate" class="float-left">
-                                    <input name="id" value="@article.Id" type="hidden" />
-                                    <button class="btn btn-success">Activate</button>
-                                </form>
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalConfirm">
+                                    Activate
+                                </button>
+
+                                <div class="modal fade" id="ModalConfirm" tabindex="-1" role="dialog" aria-labelledby="ModalConfirmTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ModalConfirmTitle">Activate</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Are you sure you want to Activate this Article?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                <form asp-page-handler="Activate">
+                                                    <input type="hidden" name="id" value="@article.Id" />
+                                                    <button type="submit" class="btn btn-success">save changes</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             }
                             else
                             {
-                                <form asp-page-handler="Remove" class="float-left">
-                                    <input type="hidden" name="id" value="@article.Id" />
-                                    <button class="btn btn-danger">Remove</button>
-                                </form>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalConfirm">
+                                    Remove
+                                </button>
+
+                                <div class="modal fade" id="ModalConfirm" tabindex="-1" role="dialog" aria-labelledby="ModalConfirmTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ModalConfirmTitle">Remove</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Are you sure you want to Remove this Article?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                <form asp-page-handler="Remove">
+                                                    <input type="hidden" name="id" value="@article.Id" />
+                                                    <button type="submit" class="btn btn-danger">save changes</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             }
                         </td>
                     </tr>

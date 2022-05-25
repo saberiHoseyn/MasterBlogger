@@ -22,7 +22,7 @@ namespace _06.MB.Infrastructure.Query
             return context.Articles
                 .Include(x => x.ArticleCategory)
                 .Include(x => x.Comments)
-                .Where(x => x.IsDeleted == true)
+                .Where(x => x.IsDeleted == false)
                 .Select(x => new ArticleQueryView
                 {
                     Id = x.Id,
@@ -51,7 +51,7 @@ namespace _06.MB.Infrastructure.Query
         {
             return context.Articles.Include(x => x.ArticleCategory)
                 .Include(x => x.Comments)
-                .Where(x => x.IsDeleted == true)
+                .Where(x => x.IsDeleted == false)
                 .Select(x => new ArticleQueryView
                 {
                     Id = x.Id,

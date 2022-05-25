@@ -21,8 +21,6 @@ namespace MB.Infrastructure.Core
     {
         public static void Config(IServiceCollection services, string ConnectionString)
         {
-            services.AddTransient<IBaseRepository<long, DominBase<long>>, BaseRepository<long, DominBase<long>>>();
-
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
             services.AddTransient<IArticleCategoryValidatorService, ArticleCategoryValidatorService>();

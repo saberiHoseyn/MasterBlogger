@@ -49,14 +49,62 @@
                         <td>
                             @if (comment.Status == Statuses.New)
                             {
-                                <form asp-page-handler="Confirm" class="float-left mr-1">
-                                    <button class="btn btn-success">Confirm</button>
-                                    <input type="hidden" name="id" value="@comment.Id" />
-                                </form>
-                                <form asp-page-handler="Cancel" class="float-left">
-                                    <button class="btn btn-danger">Cancel</button>
-                                    <input type="hidden" name="id" value="Commet.Id" />
-                                </form>
+
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalConfirm">
+                                    Confirm
+                                </button>
+                                <div class="modal fade" id="ModalConfirm" tabindex="-1" role="dialog" aria-labelledby="ModalConfirmTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ModalConfirmTitle">Confirm comment</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                After confirmation, this comment will be published and you can not delete it anymore!
+                                                <br />
+                                                Are you sure you want to confirm this comment?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                <form asp-page-handler="Confirm" class="float-left mr-1">
+                                                    <button type="submit" class="btn btn-warning">Confirm</button>
+                                                    <input type="hidden" name="id" value="@comment.Id" />
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-danger m-1" data-toggle="modal" data-target="#ModalCancel">
+                                    Cancel
+                                </button>
+                                <div class="modal fade" id="ModalCancel" tabindex="-1" role="dialog" aria-labelledby="ModalCancelTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ModalCancelTitle">Cancel comment</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                After cancellation this comment, this will be cancelled and you can not publish it anymore!
+                                                <br />
+                                                Are you sure you want to cancel this comment?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <form asp-page-handler="Cancel" class="float-left mr-1">
+                                                    <button type="submit" class="btn btn-warning">Save changes</button>
+                                                    <input type="hidden" name="id" value="@comment.Id" />
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             }
                         </td>
                     </tr>

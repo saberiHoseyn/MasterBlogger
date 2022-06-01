@@ -148,6 +148,9 @@
               },
               "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\02.MB.Application.Contracts\\_02.MB.Application.Contracts.csproj": {
                 "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\02.MB.Application.Contracts\\_02.MB.Application.Contracts.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj"
               }
             }
           }
@@ -282,8 +285,65 @@
             "projectReferences": {
               "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\_04.MB-Infrastructrue.EFCore.csproj": {
                 "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\04.MB-Infrastructrue.EFCore\\_04.MB-Infrastructrue.EFCore.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj",
+        "projectName": "MB.Infrastructure.Context.Abstract",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -349,6 +409,9 @@
               },
               "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\_06.MB.Infrastructure.Query.csproj": {
                 "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\_06.MB.Infrastructure.Query.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj"
               }
             }
           }
@@ -363,6 +426,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -430,6 +497,73 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj",
+        "projectName": "_07.MB.Infrastructure.Context.Web",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\02.MB.Application.Contracts\\_02.MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\02.MB.Application.Contracts\\_02.MB.Application.Contracts.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\MB.Infrastructure.Context\\MB.Infrastructure.Context.Abstract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

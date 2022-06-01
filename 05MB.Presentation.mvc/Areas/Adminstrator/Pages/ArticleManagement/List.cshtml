@@ -18,7 +18,8 @@
                     <th>Title</th>
                     <th>Article Category</th>
                     <th>Status</th>
-                    <th>CreationDate</th>
+                    <th>Creation Date</th>
+                    <th>Liked count</th>
                     <th>Operations</th>
                 </tr>
             </thead>
@@ -39,6 +40,7 @@
                             }
                         </td>
                         <td>@article.CreationDate</td>
+                        <td class="text-black-50">@article.LikeCout</td>
                         <td>
                             <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@article.Id">Edit</a>
                             @if (article.IsDeleted)

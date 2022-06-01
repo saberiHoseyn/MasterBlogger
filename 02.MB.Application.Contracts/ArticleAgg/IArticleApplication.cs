@@ -14,5 +14,6 @@ namespace _02.MB.Application.Contracts.ArticleAgg
         void Edit(EditArticle command);
         void Remove(long id);
         void Activate(long id);
+        void ToggleLike(long id);
     }
 }

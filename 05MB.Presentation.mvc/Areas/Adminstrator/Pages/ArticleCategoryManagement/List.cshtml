@@ -40,8 +40,11 @@
                         </td>
                         <td>@articleCategory.CreationDate</td>
                         <td>
-                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@articleCategory.Id">Rename</a>
-
+                            @*<a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@articleCategory.Id">Rename</a>*@
+                            <asp:Button class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@articleCategory.Id"
+                                        ID="btnDelete" runat="server" Text="Delete"
+                                        CausesValidation="False"
+                                        onclientclick="return confirm('Are you sure you want to delete?')" />
                             @if (articleCategory.IsDeleted)
                             {
                                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalConfirm">

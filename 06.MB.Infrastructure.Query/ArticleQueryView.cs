@@ -6,6 +6,8 @@ namespace _06.MB.Infrastructure.Query
     public class ArticleQueryView
     {
         public long Id { get; set; }
+        public int Like { get; set; }
+        public bool HasLike { get; set; }
         public string Title { get; set; }
         public string ShortDescription { get; set; }
         public string CreationDate { get; set; }

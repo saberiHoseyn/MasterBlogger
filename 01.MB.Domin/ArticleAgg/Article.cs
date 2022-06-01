@@ -15,6 +15,7 @@ namespace _01.MB.Domin.ArticleAgg
         public bool IsDeleted { get; private set; }
         public string Img { get; private set; }
         public long ArticleCategoryId { get; private set; }
+        public int Like { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
         public ICollection<Comment> Comments { get; private set; }
 
@@ -29,13 +30,14 @@ namespace _01.MB.Domin.ArticleAgg
         {
             Validate(title, articleCategoryId);
 
-            Title = title;
-            ShortDescription = shortDescription;
-            Content = content;
+            Like = 0;
             Img = img;
-            ArticleCategoryId = articleCategoryId;
+            Title = title;
+            Content = content;
             IsDeleted = false;
             Comments = new List<Comment>();
+            ShortDescription = shortDescription;
+            ArticleCategoryId = articleCategoryId;
         }
         #endregion
 
@@ -59,6 +61,15 @@ namespace _01.MB.Domin.ArticleAgg
         public void Activate()
         {
             IsDeleted = false;
+        }
+
+        public void AddLike()
+        {
+            Like++;
+        }
+        public void RemoveLike()
+        {
+            Like--;
         }
 
         private static void Validate(string title, long articleCategoryId)

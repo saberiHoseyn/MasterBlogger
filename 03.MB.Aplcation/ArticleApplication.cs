@@ -1,6 +1,7 @@
 ﻿using _00.Framework.Infrastructure;
 using _01.MB.Domin.ArticleAgg;
 using _02.MB.Application.Contracts.ArticleAgg;
+using MB.Infrastructure.Context;
 using System.Collections.Generic;
 
 namespace _03.MB.Aplcation
@@ -9,11 +10,13 @@ namespace _03.MB.Aplcation
     {
         private readonly IUnitOfWork unitOfWork;
         private readonly IArticleRepository articleRepository;
+        private readonly IUserLikeManager userLikeManager;
 
-        public ArticleApplication(IArticleRepository articleRepository, IUnitOfWork unitOfWork)
+        public ArticleApplication(IArticleRepository articleRepository, IUnitOfWork unitOfWork, IUserLikeManager userLikeManager)
         {
             this.articleRepository = articleRepository;
             this.unitOfWork = unitOfWork;
+            this.userLikeManager = userLikeManager;
         }
 
         public List<ArticleViewModel> GetList()
@@ -64,6 +67,35 @@ namespace _03.MB.Aplcation
             unitOfWork.BeginTran();
             var article = articleRepository.Get(id);
             article.Activate();
+            unitOfWork.CommitTran();
+        }
+
+        public void ToggleLike(long id)
+        {
+            if (userLikeManager.AddLike(id))
+            {
+                AddLike(id);
+            }
+            else
+            {
+                RemoveLike(id);
+            }
+        }
+
+
+        private void AddLike(long id)
+        {
+            unitOfWork.BeginTran();
+            var article = articleRepository.Get(id);
+            article.AddLike();
+            unitOfWork.CommitTran();
+        }
+
+        private void RemoveLike(long id)
+        {
+            unitOfWork.BeginTran();
+            var article = articleRepository.Get(id);
+            article.RemoveLike();
             unitOfWork.CommitTran();
         }
     }

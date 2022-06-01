@@ -1,0 +1,12 @@
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.AssemblyInfoInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.AssemblyInfo.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.csproj.CoreCompileInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.deps.json
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\bin\Debug\net5.0\ref\MB.Infrastructure.Context.Abstract.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\ref\MB.Infrastructure.Context.Abstract.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\MB.Infrastructure.Context\obj\Debug\net5.0\MB.Infrastructure.Context.Abstract.csproj.AssemblyReference.cache

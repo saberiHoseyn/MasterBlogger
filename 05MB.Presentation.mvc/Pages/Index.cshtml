@@ -2,6 +2,8 @@
 @model _05MB.Presentation.mvc.Pages.IndexModel
 @{
     ViewData["Title"] = "Index";
+    string Liked = "fa fa-heart fa-2x text-red";
+    string NotLiked = "fa fa-heart-o fa-2x text-black-50";
 }
 
 <main class="posts-listing col-lg-12">
@@ -22,6 +24,19 @@
                             <div class="category">
                                 <a asp-page="/ArticleDetails" asp-route-id="@article.Id">@article.ArticleCategory</a>
                             </div>
+                            <a asp-page-handler="Like" asp-route-id="@article.Id" class="d-flex align-items-center">
+                                <div class="meta-last">
+                                    <i class="@if (article.HasLike)
+                                                {
+                                                    @Liked;
+                                                }
+                                                else
+                                                {
+                                                    @NotLiked;
+                                                }">
+                                    </i>@article.Like
+                                </div>
+                            </a>
                         </div>
                         <a asp-page="/ArticleDetails" asp-route-id="@article.Id">
                             <h3 class="h4">@article.Title</h3>

@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\01.MB.Domin\_01.MB.Domin.csproj" />
     <ProjectReference Include="..\02.MB.Application.Contracts\_02.MB.Application.Contracts.csproj" />
+    <ProjectReference Include="..\MB.Infrastructure.Context\MB.Infrastructure.Context.Abstract.csproj" />
   </ItemGroup>
 
 </Project>

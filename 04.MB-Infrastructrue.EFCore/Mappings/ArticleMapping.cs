@@ -15,13 +15,14 @@ namespace _04.MB_Infrastructrue.EFCore.Mappings
         {
             builder.ToTable("Articles");
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Like);
             builder.Property(x => x.Title);
             builder.Property(x => x.Img);
             builder.Property(x => x.ShortDescription);
             builder.Property(x => x.Content);
             builder.Property(x => x.IsDeleted);
             builder.Property(x => x.CreationDate);
-            
+
             builder.HasOne(x => x.ArticleCategory).WithMany(x => x.Articles)
                    .HasForeignKey(x => x.ArticleCategoryId);
             builder.HasMany(x => x.Comments).WithOne(x => x.Article)

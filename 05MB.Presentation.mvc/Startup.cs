@@ -1,6 +1,7 @@
 using MB.Infrastructure.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -19,6 +20,7 @@ namespace _05MB.Presentation.mvc
         public void ConfigureServices(IServiceCollection services)
         {
             Bootestraper.Config(services, Configuration.GetConnectionString("MasterBlogger"));
+
             services.AddRazorPages();
         }
 

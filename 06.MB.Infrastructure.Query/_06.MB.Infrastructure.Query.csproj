@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\04.MB-Infrastructrue.EFCore\_04.MB-Infrastructrue.EFCore.csproj" />
+    <ProjectReference Include="..\_07.MB.Infrastructure.Web\_07.MB.Infrastructure.Context.Web.csproj" />
   </ItemGroup>
 
 </Project>

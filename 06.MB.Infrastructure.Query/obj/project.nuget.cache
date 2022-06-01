@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "idFtQx46QjJkPDMZivuT7aFEC7tGCNSOL3dwz1KyXiR/CD167ULNhYZhH4cI96XfafMX0u71vnJ9AojQVQiCEw==",
+  "dgSpecHash": "hk2sO7uHd5dpaSrrTmVoZigsT1P9WcYm/ou//RvLCDPF2n45KxfEFM5ywKCb+vd0GW3LBWq4oSLXkKjQ0tkfWA==",
   "success": true,
   "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\06.MB.Infrastructure.Query\\_06.MB.Infrastructure.Query.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\samsung\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -89,6 +91,7 @@
     "C:\\Users\\samsung\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",

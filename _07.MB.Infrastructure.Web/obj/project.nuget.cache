@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/1ftwdWzc7dGdA94evq0ZbMswmuE2h0z26ma+t0f36+SSa79hpOni0JyK2kbId5sjmYX6jsLVofZVr2s58SC2g==",
+  "success": true,
+  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\09.Master Blogger\\MasterBlogger\\_07.MB.Infrastructure.Web\\_07.MB.Infrastructure.Context.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samsung\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\samsung\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -17,3 +17,5 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.A
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\_00.Framework.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\_00.Framework.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\obj\Debug\net5.0\_03.MB.Applcation.csproj.AssemblyReference.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\03.MB.Aplcation\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.pdb

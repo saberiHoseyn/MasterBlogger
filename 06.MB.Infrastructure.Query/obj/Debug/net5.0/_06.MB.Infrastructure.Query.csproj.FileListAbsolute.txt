@@ -19,3 +19,7 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.I
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\obj\Debug\net5.0\_06.MB.Infrastructure.Query.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\bin\Debug\net5.0\_00.Framework.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\bin\Debug\net5.0\_00.Framework.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\bin\Debug\net5.0\_07.MB.Infrastructure.Context.Web.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\bin\Debug\net5.0\_07.MB.Infrastructure.Context.Web.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\09.Master Blogger\MasterBlogger\06.MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Context.Abstract.pdb

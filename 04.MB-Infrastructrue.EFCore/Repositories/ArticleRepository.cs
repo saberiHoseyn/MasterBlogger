@@ -17,14 +17,16 @@ namespace _04.MB_Infrastructrue.EFCore.Repositories
             this.context = context;
         }
 
+
         public List<ArticleViewModel> GetList()
         {
             return context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleViewModel
             {
                 Id = x.Id,
+                LikeCout = x.Like,
                 Title = x.Title,
-                ArticleCategory = x.ArticleCategory.Title,
                 IsDeleted = x.IsDeleted,
+                ArticleCategory = x.ArticleCategory.Title,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
             }).OrderByDescending(x => x.Id).ToList();
         }

@@ -13,5 +13,6 @@ namespace _02.MB.Application.Contracts.ArticleAgg
         public string ArticleCategory { get; set; }
         public bool IsDeleted { get; set; }
         public string CreationDate { get; set; }
+        public int LikeCout { get; set; }
     }
 }
